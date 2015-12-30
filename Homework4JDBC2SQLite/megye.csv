@@ -1,0 +1,25 @@
+CREATE TABLE megye (
+    mid integer PRIMARY KEY AUTOINCREMENT,
+    name character varying(32),
+    capital character varying(32),
+    area character varying(32));
+
+insert into megye (name, capital, area) values ("Bács-Kiskun","Kecskemét","Dél-Alföld");
+insert into megye (name, capital, area) values ("Baranya","Pécs","Dél-Dunántúl");
+insert into megye (name, capital, area) values ("Békés","Békéscsaba","Dél-Alföld");
+insert into megye (name, capital, area) values ("Borsod-Abaúj-Zemplén","Miskolc","Észak-Magyarország");
+insert into megye (name, capital, area) values ("Csongrád","Szeged","Dél-Alföld");
+insert into megye (name, capital, area) values ("Fejér","Székesfehérvár","Közép-Dunántúl");
+insert into megye (name, capital, area) values ("Győr-Moson-Sopron","Győr","Nyugat-Dunántúl");
+insert into megye (name, capital, area) values ("Hajdú-Bihar","Debrecen","Észak-Alföld");
+insert into megye (name, capital, area) values ("Heves","Eger","Észak-Magyarország");
+insert into megye (name, capital, area) values ("Jász-Nagykun-Szolnok","Szolnok","Észak-Alföld");
+insert into megye (name, capital, area) values ("Komárom-Esztergom","Tatabánya","Közép-Dunántúl");
+insert into megye (name, capital, area) values ("Nógrád","Salgótarján","Észak-Magyarország");
+insert into megye (name, capital, area) values ("Pest","Budapest","Közép-Magyarország");
+insert into megye (name, capital, area) values ("Somogy","Kaposvár","Dél-Dunántúl");
+insert into megye (name, capital, area) values ("Szabolcs-Szatmár-Bereg","Nyíregyháza","Észak-Alföld");
+insert into megye (name, capital, area) values ("Tolna","Szekszárd","Dél-Dunántúl");
+insert into megye (name, capital, area) values ("Vas","Szombathely","Nyugat-Dunántúl");
+insert into megye (name, capital, area) values ("Veszprém","Veszprém","Közép-Dunántúl");
+insert into megye (name, capital, area) values ("Zala","Zalaegerszeg","Nyugat-Dunántúl");
